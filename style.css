@@ -3,3 +3,52 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+/* style.css */
+
+
+
+/* Center the image */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style the navigation links */
+nav a {
+  padding: 10px;
+  background-color: grey;
+  display: inline-block; /* Ensures padding works correctly */
+}
+
+/* Style the image caption */
+figcaption {
+  font-size: 14px; /* Adjust font size as desired */
+  text-align: center;
+}
+
+/* Center the text block */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto; /* Provides some vertical spacing */
+  text-align: center;
+}
+
+/* Make the details section horizontal */
+#details div {
+  float: left;
+  width: 25%;
+}
+
+/* Style the divs at the bottom */
+#details div {
+  background-color: lightgrey; /* Change as desired */
+  text-align: center;
+  width: 25%;
+  float: left; /* Ensure they are placed in a row */
+}
